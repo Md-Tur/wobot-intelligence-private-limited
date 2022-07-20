@@ -32,6 +32,21 @@ function App() {
           <p className='subHeading'>Help us know you better. <br />
             (This is how we optimize Wobot as per your business needs)</p>
 
+          <form>
+            <label htmlFor="cName" style={{ fontSize: '14px', color: '#545454' }}>Company name</label>
+            <input type="text" id="cName" name="companyName" placeholder="e.g. Example Inc" />
+
+            <label htmlFor="industry" style={{ fontSize: '14px', color: '#545454' }}>Industry</label>
+            <select id="industry" name="industry">
+              <option value="select">Select</option>
+              <option value="software">Software</option>
+              <option value="it">IT</option>
+              <option value="multinational">Multinational</option>
+            </select>
+
+
+            <input type="submit" value="Get Started"></input>
+          </form>
         </div>
 
       </div>
