@@ -1,9 +1,9 @@
 import './App.css';
-import logo from './images/wobot-logo_blue 1.png';
-import logo1 from './images/Solid_lines.png';
-import line from './images/Rectangle 381.png';
-import line1 from './images/Rectangle 382.png';
-import line2 from './images/Rectangle 380.png';
+import logo from './images/logo.png';
+import logo1 from './images/icon.png';
+import line from './images/line1.png';
+import line1 from './images/line2.png';
+import line2 from './images/line3.png';
 
 function App() {
   return (
