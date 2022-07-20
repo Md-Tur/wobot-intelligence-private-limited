@@ -3,6 +3,7 @@ import logo from './images/wobot-logo_blue 1.png';
 import logo1 from './images/Solid_lines.png';
 import line from './images/Rectangle 381.png';
 import line1 from './images/Rectangle 382.png';
+import line2 from './images/Rectangle 380.png';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
 
       <div className='line1'>
         <img src={line1} alt="" />
+      </div>
+
+      <div className='line2'>
+        <img src={line2} alt="" />
       </div>
 
       <div className='card'>
@@ -44,6 +49,29 @@ function App() {
               <option value="multinational">Multinational</option>
             </select>
 
+            <p className='companySize'>Company Size</p>
+            <ul>
+              <li>
+                <input type="checkbox" id="check_1" name="check_1" value="check_1" />
+                <label htmlFor="check_1">1-20</label>
+              </li>
+              <li>
+                <input type="checkbox" id="check_2" name="check_2" value="check_2" />
+                <label htmlFor="check_2">21-50</label>
+              </li>
+              <li>
+                <input type="checkbox" id="check_3" name="check_3" value="check_3" />
+                <label htmlFor="check_3">51-200</label>
+              </li>
+              <li>
+                <input type="checkbox" id="check_4" name="check_4" value="check_4" />
+                <label htmlFor="check_4">201-500</label>
+              </li>
+              <li>
+                <input type="checkbox" id="check_5" name="check_5" value="check_5" />
+                <label htmlFor="check_5">500+</label>
+              </li>
+            </ul>
 
             <input type="submit" value="Get Started"></input>
           </form>
